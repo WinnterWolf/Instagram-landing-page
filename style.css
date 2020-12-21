@@ -32,7 +32,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 45rem;
 }
 
 .instagram-continue {
@@ -50,7 +50,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 100%;
+    width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
@@ -89,42 +89,11 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgba(var(--i1d,38,38,38),1);
 }
 
 .link-blue {
     color: #0095f6;
-}
-
-.get-the-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
-}
-
-.download {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem;
-}
-
-.app-download {
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
-}
-
-.app-download:nth-child(1) {
-    height: 10;
-    background-image: url('./Images/AppleStore-Button.png');
-}
-
-.app-download:nth-child(2) {
-    background-image: url('./Images/GooglePlay-Button.png');
 }
 
 /* media querys */
